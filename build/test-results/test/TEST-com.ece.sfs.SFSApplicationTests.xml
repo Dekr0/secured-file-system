@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.ece.sfs.SFSApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-03-03T05:24:12" hostname="dekro" time="0.176">
+  <properties/>
+  <testcase name="testCrypto()" classname="com.ece.sfs.SFSApplicationTests" time="0.176"/>
+  <system-out><![CDATA[22:24:11.635 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [SFSApplicationTests]: using SpringBootContextLoader
+22:24:11.638 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.ece.sfs.SFSApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+22:24:11.639 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.ece.sfs.SFSApplicationTests]: SFSApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:24:11.649 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using ContextCustomizers for test class [SFSApplicationTests]: [DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer, ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, TestRestTemplateContextCustomizer]
+22:24:11.681 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [/home/dekr0/Codebase/SFS/build/classes/java/main/com/ece/sfs/SFSApplication.class]
+22:24:11.682 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.ece.sfs.SFSApplication for test class com.ece.sfs.SFSApplicationTests
+22:24:11.718 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [jakarta/servlet/ServletContext]
+22:24:11.720 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+22:24:11.720 [Test worker] DEBUG org.springframework.test.context.util.TestContextSpringFactoriesUtils - Skipping candidate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener] due to a missing dependency. Specify custom TestExecutionListener classes or make the default TestExecutionListener classes and their required dependencies available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+22:24:11.721 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners for test class [SFSApplicationTests]: [DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, WithSecurityContextTestExecutionListener, EventPublishingTestExecutionListener, ReactorContextTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener, ResetMocksTestExecutionListener]
+22:24:11.722 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [SFSApplicationTests], class annotated with @DirtiesContext [false] with mode [null]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.0.1)
+
+2023-03-02T22:24:11.843-07:00  INFO 1026075 --- [    Test worker] com.ece.sfs.SFSApplicationTests          : Starting SFSApplicationTests using Java 19.0.2 with PID 1026075 (started by dekr0 in /home/dekr0/Codebase/SFS)
+2023-03-02T22:24:11.844-07:00  INFO 1026075 --- [    Test worker] com.ece.sfs.SFSApplicationTests          : No active profile set, falling back to 1 default profile: "default"
+2023-03-02T22:24:12.213-07:00  WARN 1026075 --- [    Test worker] org.jline                                : Unable to create a system terminal, creating a dumb terminal (enable debug logging for more information)
+2023-03-02T22:24:12.411-07:00  INFO 1026075 --- [    Test worker] com.ece.sfs.SFSApplicationTests          : Started SFSApplicationTests in 0.672 seconds (process running for 1.172)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
